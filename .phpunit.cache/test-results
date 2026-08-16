@@ -1,1 +1,0 @@
-{"version":2,"defects":[],"times":{"Zemail\\Laravel\\Tests\\Feature\\FacadeTest::test_the_facade_acts_as_a_proxy_for_the_client":0.152,"Zemail\\Laravel\\Tests\\Feature\\FacadeTest::test_it_resolves_the_zemail_client_from_the_container":0.001}}
