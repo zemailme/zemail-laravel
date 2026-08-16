@@ -1,0 +1,48 @@
+{
+    "name": "zemailme/zemail-laravel",
+    "description": "The official Zemail Laravel SDK",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zemail",
+            "email": "support@zemail.me"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^10.0|^11.0",
+        "zemailme/zemail-php": "^1.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.0|^9.0",
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zemail\\Laravel\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Zemail\\Laravel\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zemail\\Laravel\\ZemailServiceProvider"
+            ],
+            "aliases": {
+                "Zemail": "Zemail\\Laravel\\Zemail"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "release": "npx release-it",
+        "release:dry": "npx release-it --dry-run"
+    }
+}
