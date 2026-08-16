@@ -1,9 +1,9 @@
 # Zemail Laravel SDK
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/zemailme/zemail-laravel.svg?style=flat-square)](https://packagist.org/packages/zemailme/zemail-laravel)
-[![Total Downloads](https://img.shields.io/packagist/dt/zemailme/zemail-laravel.svg?style=flat-square)](https://packagist.org/packages/zemailme/zemail-laravel)
-[![License](https://img.shields.io/packagist/l/zemailme/zemail-laravel.svg?style=flat-square)](https://packagist.org/packages/zemailme/zemail-laravel)
+[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/zemailme/zemail-laravel/tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/zemailme/zemail-laravel/actions?query=workflow%3Arun-tests+branch%3Amain)
 [![PHP Version](https://img.shields.io/packagist/php-v/zemailme/zemail-laravel.svg?style=flat-square)](https://packagist.org/packages/zemailme/zemail-laravel)
+[![License](https://img.shields.io/github/license/zemailme/zemail-laravel?style=flat-square)](https://github.com/zemailme/zemail-laravel/blob/main/LICENSE)
 
 The official Laravel wrapper for the [Zemail API](https://zemail.me). Generate disposable, temporary emails, fetch messages, and manage your account seamlessly from within your Laravel applications.
 
